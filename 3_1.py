@@ -6,8 +6,8 @@ my_dict = {"zero": "ноль", "one": "один",
            "ten": "десять"}
 
 
-def trans(word):
+def num_translate(word):
     return my_dict.get(word)
 
 
-print(trans(input("Введите число от 0 до 10 на английском: ")))
+print(num_translate(input("Введите число от 0 до 10 на английском: ")))
